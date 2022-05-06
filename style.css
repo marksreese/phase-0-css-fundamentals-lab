@@ -1,5 +1,51 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0px;
+}
+
+header {
+  text-align: center;
+}
+
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a {
+  background-color: #abcdef;
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 12px;
+}
+
+#details {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#featured-property > p{
+  width: 800px;
+  text-align: center;
+  padding-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#details > div {
+  background-color: #aaaaaa;
+  float: left;
+  width: 24%;
 }
